@@ -57,16 +57,16 @@ function onToggleMenu(e){
     <main>
 <section class="container mx-auto lg:px-24 px-5 my-8">
 <div>
-    <div class="relative">
-        <img class="bg-black bg-transparent w-full" src="legal-solution-resources-main/images/banner.png" alt="">
-        <div class="absolute top-8 left-7 md:top-16 md:left-40 lg:top-36 lg:left-[300px] lg:space-y-10">
-<h1 class="font-extrabold text-white text-xl md:text-4xl lg:text-6xl text-center">We Provide Effective <br> Legal Solutions</h1>
-<p class="text-white text-center text-sm lg:text-lg">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-<div class="hidden md:flex">
-    <input class="h-12 md:[330px] lg:w-[400px] md:mr-5 lg:mr-8 bg-white border-white rounded-md px-5" type="text" placeholder="Search your services">
-    <button class="bg-[#B68C5A] text-white text-sm md:text-lg font-semibold px-6 py-3 w-36 rounded-md">Search</button>
-</div>
+    <div class="hero h-[60vh] w-full bg-no-repeat" style="background-image: url(legal-solution-resources-main/images/banner.png);">
+        <div class="hero-overlay bg-opacity-60"></div>
+        <div class="text-center flex justify-center items-center mx-auto">
+          <div class="max-w-md ">
+            <h1 class="mb-5 text-5xl font-bold text-center text-white">We Provide Effective <br> Legal Solutions</h1>
+            <p class="mb-5 text-center text-white">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+            <button class="btn btn-primary">Search</button>
+          </div>
         </div>
+      </div>
     </div>
 </div>
 </section>
@@ -129,8 +129,128 @@ function onToggleMenu(e){
         <h1 class="lg:text-5xl text-center font-bold mb-5 md:text-3xl text-xl">What Our Client Say</h1>
         <p class="text-gray-700 md:text-base text-center text-sm">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
     </div>
-    <div class="bg-[url('./legal-solution-resources-main/images/banner.png')]">
-        
+    <div class="">
+        <img class="w-full" src="legal-solution-resources-main/images/banner.png" alt="">
+    </div>
+</section>
+
+<section class="container mx-auto lg:px-24 px-5 my-8">
+    <div class="mb-10">
+        <h1 class="lg:text-5xl text-center font-bold mb-5 md:text-3xl text-xl">Frequently Asked Any Questions</h1>
+        <p class="text-gray-700 md:text-base text-center text-sm ">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+    </div>
+    <div class="flex flex-col lg:flex-row bg-black">
+        <div>
+            <div class="collapse collapse-plus bg-base-200">
+                <input type="radio" name="my-accordion-3" checked="checked" /> 
+                <div class="collapse-title text-xl font-medium">
+                  Click to open this one and close others
+                </div>
+                <div class="collapse-content"> 
+                  <p>hello</p>
+                </div>
+              </div>
+              <div class="collapse collapse-plus bg-base-200">
+                <input type="radio" name="my-accordion-3" /> 
+                <div class="collapse-title text-xl font-medium">
+                  Click to open this one and close others
+                </div>
+                <div class="collapse-content"> 
+                  <p>hello</p>
+                </div>
+              </div>
+              <div class="collapse collapse-plus bg-base-200">
+                <input type="radio" name="my-accordion-3" /> 
+                <div class="collapse-title text-xl font-medium">
+                  Click to open this one and close others
+                </div>
+                <div class="collapse-content"> 
+                  <p>hello</p>
+                </div>
+              </div>
+        </div>
+        <div class="collapse collapse-plus bg-base-200">
+            <input type="radio" name="my-accordion-3" checked="checked" /> 
+            <div class="collapse-title text-xl font-medium">
+              Click to open this one and close others
+            </div>
+            <div class="collapse-content"> 
+              <p>hello</p>
+            </div>
+          </div>
+          <div class="collapse collapse-plus bg-base-200">
+            <input type="radio" name="my-accordion-3" /> 
+            <div class="collapse-title text-xl font-medium">
+              Click to open this one and close others
+            </div>
+            <div class="collapse-content"> 
+              <p>hello</p>
+            </div>
+          </div>
+          <div class="collapse collapse-plus bg-base-200">
+            <input type="radio" name="my-accordion-3" /> 
+            <div class="collapse-title text-xl font-medium">
+              Click to open this one and close others
+            </div>
+            <div class="collapse-content"> 
+              <p>hello</p>
+            </div>
+          </div>
+        <div>
+            <img src="legal-solution-resources-main/images/faq.png" alt="">
+        </div>
+    </div>
+</section>
+<section class="container mx-auto lg:px-24 px-5 my-8">
+    <div class="mb-10">
+        <h1 class="lg:text-5xl text-center font-bold mb-5 md:text-3xl text-xl">Contact With Us</h1>
+        <p class="text-gray-700 md:text-base text-center text-sm ">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+    </div>
+    
+    <div class="flex flex-col md:flex-row gap-3 md:gap-6 lg:flex-row lg:gap-10">
+        <div class="grid grid-cols-1 md:grid-cols-2 ">
+            <div class="flex justify-center items-center flex-col  p-10 lg:p-20 bg-stone-100 gap-4 border-b-[1px] border-stone-200">
+                <span class="text-[#B68C5A]"><img src="legal-solution-resources-main/images/location.png" alt=""></span>
+                <h6 class="text-lg font-semibold">Address</h6>
+                <p class="text-xs text-black opacity-75">A108 Adam Street,<br>
+                    New York, NY 535022</p>
+            </div>
+            <div class="flex justify-center items-center flex-col p-10 lg:p-20 bg-stone-100 gap-4 border-l-[1px] border-stone-200">
+                <span class="text-[#B68C5A]"><img src="legal-solution-resources-main/images/time.png" alt=""></span>
+                <h6 class="text-lg font-semibold">Working Hours</h6>
+                <p class="text-xs text-black opacity-75">Mon-Fri: 9AM to 5PM <br>
+                    Sunday: 9AM to 1 PM</p>
+            </div>
+            <div class="flex justify-center items-center flex-col p-10 lg:p-20 bg-stone-100 gap-4 border-r-[1px] border-stone-200">
+                <span class="text-[#B68C5A]"><img src="legal-solution-resources-main/images/call.png" alt=""></span>
+                <h6 class="text-lg font-semibold">Call Us</h6>
+                <p class="text-xs text-black opacity-75">+88 01750 00 00 00<br>
+                    +88 01750 00 00 00  </p>
+            </div>
+            <div class="flex justify-center items-center flex-col p-10 lg:p-20 bg-stone-100 gap-4 border-t-[1px] border-stone-200">
+                <span class="text-[#B68C5A]"><img src="legal-solution-resources-main/images/email.png" alt=""></span>
+                <h6 class="text-lg font-semibold">Email Us</h6>
+                <p class="text-xs text-black opacity-75">info@gmail.com<br>
+            info@gmail.com</p>
+            </div>
+                </div>
+<div class="">
+<div>
+    <input class="w-96 lg:w-[620px] h-12 lg:h-20 bg-gray-100 px-5 rounded-lg lg:text-lg lg:mb-10" type="email" name="" id="" placeholder="Your Name">
+</div>
+<div>
+    <input class="w-96 lg:w-[620px] h-12 lg:h-20 bg-gray-100 px-5 rounded-lg lg:text-lg lg:mb-10" type="email" name="" id="" placeholder="Your email">
+</div>
+<div>
+    <input class="w-96 lg:w-[620px] h-12 lg:h-20 bg-gray-100 px-5 rounded-lg lg:text-lg lg:mb-10" type="email" name="" id="" placeholder="Subject">
+</div>
+<div>
+    <input class="w-96 lg:w-[620px] h-12 lg:h-48 bg-gray-100 px-5 rounded-lg lg:text-lg  lg:mb-10" type="email" name="Message" id="">
+</div>
+<div class="text-white">
+    <input class="w-96 lg:w-[620px] h-12 lg:h-20 px-5 rounded-lg lg:text-lg bg-[#B68C5A] " type="email" name="" id="" placeholder="Send email">
+</div>
+</div>
     </div>
 </section>
     </main>
